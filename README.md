@@ -8,7 +8,7 @@ Solving parametrized partial differential equations (PDEs) such as the incompres
 
 This project combined reduced-basis (RB) methods with a regression-based approach to achieve a complete decoupling of the offline and online stages, enhancing computational efficiency further. The experiments were done on viscous Burgers' equation.
 
-$$u_t + uu_x − \frac{\nu}{50\pi}u_{xx} = 0$$
+$$u_t + uu_x − \frac{\mu}{50\pi}u_{xx} = 0$$
 
 ### Offline Stage:
 1. Generate Reduced Basis: Solve the parametrized PDE for a selected set of parameter values spanning the parameter space.
