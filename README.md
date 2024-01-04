@@ -6,7 +6,7 @@ Reduced Order Modeling (ROM): Techniques like Proper Orthogonal Decomposition (P
 
 Transfer Learning and Machine Learning (ML): ML algorithms can learn patterns and correlations between different parameter values from previously solved solutions. Once trained, these models can predict solutions for new parameter values with significantly lower computational cost compared to solving the PDEs directly.
 
-This project combined reduced-basis (RB) methods with a regression-based approach to achieve a complete decoupling of the offline and online stages, enhancing computational efficiency further. The experiments was done on viscous Burgers' equation.
+This project combined reduced-basis (RB) methods with a regression-based approach to achieve a complete decoupling of the offline and online stages, enhancing computational efficiency further. The experiments were done on viscous Burgers' equation.
 
 $$u_t + uu_x − \frac{\nu}{50\pi}u_{xx} = 0$$
 
